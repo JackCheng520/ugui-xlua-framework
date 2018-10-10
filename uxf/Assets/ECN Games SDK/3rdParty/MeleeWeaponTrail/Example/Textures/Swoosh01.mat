@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Swoosh01
+  m_Shader: {fileID: 4800000, guid: 0deb97acae014934eb11941484a38fb6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispMap:
+        m_Texture: {fileID: 2800000, guid: 26ecc4079c22211498cc75a0095920e9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 05284a03916175a49a350e9085935f2f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: e5074946618004d46acb6147255b8b9b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: a0847af09685b46479708dbc8e3a8ac9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AccumOrig: 0.65
+    - _DispScrollSpeedX: 1
+    - _DispScrollSpeedY: 0
+    - _HeatForce: 0.1
+    - _HeatTime: 1
+    - _InvFade: 0.88
+    - _MMultiplier: 1
+    - _StrengthX: 5
+    - _StrengthY: 5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _TintColor: {r: 0.9632353, g: 0.97740054, b: 0.97740054, a: 0.47058824}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6
